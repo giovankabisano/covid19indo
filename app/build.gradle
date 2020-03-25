@@ -8,6 +8,8 @@ android {
 
     defaultConfig {
         applicationId "com.covidindo"
+        manifestPlaceholders = [appLabel   : "Covid 19 Indonesia",
+                                appProvider: "com.covid19indo.provider"]
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
